@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Calculator</title>
+</head>
+<body>
+    <form name="calc" class="calculator">
+        <input type="text" name="txt" class="display">
+
+        <span class="c neumoprhic" onclick="document.calc.txt.value ='' ">C</span>
+        <span class="signed neumoprhic" onclick="document.calc.txt.value +='+/-' ">+/-</span>
+        <span class="percent neumoprhic" onclick="document.calc.txt.value += '%' ">%</span>
+        <span class="divide neumoprhic" onclick="document.calc.txt.value +='/' ">/</span>
+        <span class="seven neumoprhic" onclick="document.calc.txt.value +='7' ">7</span>
+        <span class="eight neumoprhic" onclick="document.calc.txt.value +='8' ">8</span>
+        <span class="nine neumoprhic" onclick="document.calc.txt.value +='9' ">9</span>
+        <span class="times neumoprhic"onclick="document.calc.txt.value +='*' ">*</span>
+        <span class="four neumoprhic"onclick="document.calc.txt.value +='4' ">4</span>
+        <span class="five neumoprhic"onclick="document.calc.txt.value +='5' ">5</span>
+        <span class="six neumoprhic"onclick="document.calc.txt.value +='6' ">6</span>
+        <span class="minus neumoprhic"onclick="document.calc.txt.value +='-' ">-</span>
+        <span class="one neumoprhic"onclick="document.calc.txt.value +='1' ">1</span>
+        <span class="two neumoprhic"onclick="document.calc.txt.value +='2' ">2</span>
+        <span class="three neumoprhic"onclick="document.calc.txt.value +='3' ">3</span>
+        <span class="plus neumoprhic"onclick="document.calc.txt.value +='+' ">+</span>
+        <span class="zero neumoprhic"onclick="document.calc.txt.value +='0' ">0</span>
+        <span class="decimal neumoprhic"onclick="document.calc.txt.value +='.' ">.</span>
+        <span class="equals neumoprhic"onclick="document.calc.txt.value = eval(calc.txt.value)">=</span>
+    </form>
+
+    
+</body>
+</html>
